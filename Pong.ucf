@@ -1,0 +1,18 @@
+
+
+NET "clk50" LOC = T9;
+NET "leftBtn" LOC = M14;
+NET "rightBtn" LOC = M13;
+NET "vgaB" LOC = R11;
+NET "vgaG" LOC = T12;
+NET "vgaHS" LOC = R9;
+NET "vgaR" LOC = R12;
+NET "vgaVS" LOC = T10;
+
+
+#NET "clk50" IOSTANDARD = LVTTL;
+#NET "vgaB" IOSTANDARD = LVTTL;
+#NET "vgaG" IOSTANDARD = LVTTL;
+#NET "vgaHS" IOSTANDARD = LVTTL;
+#NET "vgaR" IOSTANDARD = LVTTL;
+#NET "vgaVS" IOSTANDARD = LVTTL;
